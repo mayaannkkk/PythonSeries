@@ -2,7 +2,7 @@ import random
 
 low_num = 1
 high_num = 100
-number = random.randint(low_num, high_num) #range for guessing a number by computer
+number = random.randint(low_num, high_num)  # range for guessing a number by computer
 guesses = 0
 
 print("Python Number Guessing Game")
